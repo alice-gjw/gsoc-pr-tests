@@ -1,0 +1,13 @@
+[project]
+name = "gsoc-pr-tests"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.133.0",
+    "openvino>=2025.4.1",
+    "pydantic>=2.12.5",
+    "scikit-learn>=1.8.0",
+    "sentence-transformers>=5.2.3",
+]
