@@ -1,12 +1,12 @@
 [project]
-name = "gsoc-pr-tests"
+name = "practice-tools"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.133.0",
+    "joblib>=1.4.0",
     "pydantic>=2.12.5",
     "scikit-learn>=1.8.0",
-    "sentence-transformers>=5.2.3",
 ]

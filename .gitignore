@@ -1,5 +1,12 @@
+# ALL
+.claude/
 .venv/
 .python-version
 __pycache__
 data/
-uv.lock
+
+
+# AWS
+aws/
+awscliv2.zip
+eks-cluster-role-trust-policy.json
